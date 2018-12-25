@@ -2,9 +2,9 @@
     <div>
         <h2>{{title}}</h2>
         <ul>
-          <li v-for="list in lists">
-            <router-link  class="button" v-bind:to="{name:'{{list.path}}'}">{{list.name}}</router-link>
-          </li>
+          <div v-for="list in lists">
+            <router-link  class="button" v-bind:to="{name:list.path}">{{list.name}}</router-link>
+          </div>
         </ul>
     </div>
 </template>
@@ -26,8 +26,7 @@ export default {
      width:500px;
      height: 50px;
      line-height: 50px;
-     background-color: grey;
-     color:#ffffff;
+     color:black;
   }
 
 
