@@ -9,6 +9,7 @@ import Attribute from "@/pages/cpal/children/attribute"
 import Listener from "@/pages/cpal/children/listener"
 import ClassStyle from "@/pages/classstyle/classstyle"
 import Condition from  "@/pages/condition/Condition"
+import List from "@/pages/list/List"
 
 Vue.use(Router)
 
@@ -63,6 +64,11 @@ export default new Router({
       path:"/condition",
       name:"condition",
       component:Condition
+    },
+    {
+      path:"/list",
+      name:"list",
+      component:List
     }
   ]
 })

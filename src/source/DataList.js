@@ -14,6 +14,10 @@ let dataList = [
   {
     name:"条件渲染",
     path:"condition"
+  },
+  {
+    name:"列表渲染" ,
+    path:"list"
   }
 ]
 
