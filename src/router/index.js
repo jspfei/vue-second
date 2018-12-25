@@ -7,6 +7,8 @@ import Instructions from "@/pages/template/children/instructions"
 import CPAL from "@/pages/cpal/CPAL"
 import Attribute from "@/pages/cpal/children/attribute"
 import Listener from "@/pages/cpal/children/listener"
+import ClassStyle from "@/pages/classstyle/classstyle"
+import Condition from  "@/pages/condition/Condition"
 
 Vue.use(Router)
 
@@ -50,6 +52,17 @@ export default new Router({
           component:Listener
         },
       ]
+    }
+    ,
+    {
+      path:"/classstyle",
+      name:"classstyle",
+      component:ClassStyle
+    },
+    {
+      path:"/condition",
+      name:"condition",
+      component:Condition
     }
   ]
 })
