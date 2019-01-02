@@ -18,6 +18,14 @@ let dataList = [
   {
     name:"列表渲染" ,
     path:"list"
+  },
+  {
+    name:"事件处理",
+    path:"event"
+  },
+  {
+     name:"表单输入绑定",
+    path:"form"
   }
 ]
 

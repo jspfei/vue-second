@@ -10,6 +10,8 @@ import Listener from "@/pages/cpal/children/listener"
 import ClassStyle from "@/pages/classstyle/classstyle"
 import Condition from  "@/pages/condition/Condition"
 import List from "@/pages/list/List"
+import Event from "@/pages/event/Event"
+import Form from "@/pages/form/Form"
 
 Vue.use(Router)
 
@@ -69,6 +71,16 @@ export default new Router({
       path:"/list",
       name:"list",
       component:List
+    },
+    {
+      path:"/event",
+      name:"event",
+      component:Event
+    },
+    {
+      path:"/form",
+      name:"form",
+      component:Form
     }
   ]
 })
